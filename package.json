@@ -1,0 +1,40 @@
+{
+  "name": "visit-your-github-profile",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Programmatically visit your GitHub profile to increase profile view count",
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "puppeteer",
+    "github",
+    "automation"
+  ],
+  "author": {
+    "name": "cednore",
+    "email": "cednore@gmail.com"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cednore/visit-your-github-profile.git"
+  },
+  "homepage": "https://github.com/cednore/visit-your-github-profile",
+  "bugs": {
+    "url": "https://github.com/cednore/visit-your-github-profile/issues"
+  },
+  "engines": {
+    "node": ">= 16.0.0",
+    "npm": ">= 8.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "puppeteer": "^17.1.1"
+  },
+  "devDependencies": {
+  }
+}
