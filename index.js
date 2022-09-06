@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer-core");
 
-const profileUrl = "https://github.com/cednore";
+const profileUrl = "https://gpvc.arturio.dev/cednore";
 const visitCount = parseInt(process.argv[2]) || 1;
 
 (async () => {
