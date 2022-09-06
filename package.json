@@ -33,8 +33,7 @@
     "start": "node ."
   },
   "dependencies": {
-    "puppeteer": "^17.1.1"
-  },
-  "devDependencies": {
+    "puppeteer": "^17.1.1",
+    "puppeteer-core": "^17.1.1"
   }
 }
