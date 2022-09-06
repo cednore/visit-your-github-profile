@@ -11,6 +11,7 @@ const visitCount = parseInt(process.argv[2]) || 1;
   await page.goto(profileUrl);
 
   for (let i = 1; i < visitCount; i++) {
+    console.log("🚀 ~ file: index.js ~ line 14 ~ i", i);
     await page.reload();
   }
 
